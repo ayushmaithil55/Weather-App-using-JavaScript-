@@ -1,15 +1,19 @@
 /* Weather APP */
+
 body{
     font-family:Arial, sans-serif;
-    background-color: hsl(0, 0, 95);
-    margin: 0;
+    background-color: #d2a985;
+    margin: 0; 
     display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .weatherForm{
-    margin-top: 20px;
-  }
+    flex-direction:column;
+    background-image: url(https://openweathermap.org/themes/openweathermap/assets/img/autumn_banner_main_page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;      
+    background-attachment: fixed; 
+    background-position: center;
+    height: 100vh;
+  } 
+
  
   .cityInput{
     padding: 10px;
@@ -31,6 +35,8 @@ body{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin: 10px;
+
  
   }
  
@@ -47,6 +53,13 @@ body{
    display: flex;
    flex-direction: column;
    align-items: center;
+   border-radius: 10px;
+   width: 20%;
+   align-self: flex-end;
+   margin: 0;
+   margin-top: 50px;
+   margin-right: 100px;
+
   }
  
   h1{
@@ -89,3 +102,39 @@ body{
     font-weight: bold;
     color: hsla(0,0%,0%,0.767);
   }
+
+  .navbar{
+    
+    background-color:#48484A;
+    width: 100vw;
+    height: 60px;
+    color: white ;
+    padding-left: 50px;
+  }
+
+  
+.weatherForm{
+    
+  display: flex;
+  flex-direction: column ;
+  align-items: flex-start; 
+  text-align: left;
+  background :linear-gradient(180deg,hsl(210,100%,75%),hsl(40,100%,75%));
+  box-shadow: 2px 2px 5px black;
+  font-size: medium;
+  padding: 70px;
+  border-radius: 10px;
+  width: 20%;
+  margin: 50px 0px 0px 100px;
+  align-self: flex-start;
+  min-width: 300px;
+  } 
+
+  .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+  }
+  
