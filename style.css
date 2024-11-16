@@ -1,14 +1,20 @@
 /* Weather APP */
 body{
     font-family:Arial, sans-serif;
-    background-color: hsl(0, 0, 95);
+    background-color: #d2a985;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+    background-image: url(https://openweathermap.org/themes/openweathermap/assets/img/autumn_banner_main_page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;      
+    background-attachment: fixed; 
+    background-position: center;
+    height: 100vh; 
+
   .weatherForm{
-    margin-top: 20px;
+    margin-top: 40vh;
   }
  
   .cityInput{
@@ -88,4 +94,13 @@ body{
     font-size: 2.2rem;
     font-weight: bold;
     color: hsla(0,0%,0%,0.767);
+  }
+
+  .navbar{
+    background-color:#48484A;
+    width: 100vw;
+    height: 60px;
+    color: white ;
+    padding-left: 50px;
+    
   }
